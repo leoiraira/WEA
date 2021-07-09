@@ -1,0 +1,80 @@
+/*---------carrusel--------*/
+.carousel{
+    background-color: black;
+    width: 600px;
+    margin: 40px 30px 40px 0;
+    border-radius: 20px;
+    @include media(sm) {
+        margin: 40px auto 100px;
+    }
+    @include media(xs) {
+        margin: 40px auto 100px;
+        width: calc(100% - 20px);
+    }
+}
+.carousel__contenedor{
+    position: relative;
+}
+.carousel__siguiente,
+.carousel__anterior {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    top: calc(0% - 30px);
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    background:none;
+    color: var(--primario);
+    z-index: 9999;
+    font-size: 30px;
+    &:hover{
+        color: var(--blanco);
+    }
+    @include media(sm) {
+        
+    }
+}
+
+.carousel__anterior{
+    right: 30px;
+}
+
+.carousel__siguiente{
+    right: 0px;
+}
+
+.carousel__lista{
+    overflow: hidden;
+}
+
+.carousel__indicadores .glider-dot{
+    top: 40px;
+    right: 0;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    border-radius: 30px;
+    background-color: rgb(196, 196, 196);
+}
+
+.carousel__indicadores .glider-dot.active {
+    background-color: var(--primario);
+}
+.carrusel__elementos{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding-top: 20px;
+    justify-items: center;
+    @include media(sm) {
+        grid-template-columns: 1fr;
+    }
+    @include media(xs) {
+        grid-template-columns: 1fr;
+        padding: 20px 15px;
+    }
+    
+}

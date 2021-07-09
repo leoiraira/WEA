@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Libre de Derecho de autor Servicio Lite - ScaMusica</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/reproductor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.5/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header class="fondo-black">
+        <div class="logo">
+            <img src="img/logo.svg" alt="">
+        </div>
+        <nav class="menu">
+            <ul class="ul_menu">
+                <li class="li_menu">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="li_menu">
+                    <a href="quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li class="li_menu">
+                    <a class="active" href="nuestros-servicios.html">Nuestros Servicios</a>
+                </li>
+                <li class="li_menu">
+                    <a href="nuestro-contenido.html">Nuestros Contenido</a>
+                </li>
+                <li class="li_menu">
+                    <a href="oficinas_chile.html">Asistencia Técnica</a>
+                </li>
+                <li class="li_menu">
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li class="li_menu">
+                    <a class="sesion" href="iniciar-sesion.html">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="open-nav">
+            <span></span>
+        </button>
+        <nav class="menu-celular">
+            <button type="button" class="close-nav">x</button>
+            <div class="nav-inner">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="quienes-somos.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a href="nuestros-servicios.html">Nuestros Servicios</a>
+                    </li>
+                    <li>
+                        <a href="nuestro-contenido.html">Nuestros Contenido</a>
+                    </li>
+                    <li>
+                        <a href="oficinas_chile.html">Asistencia Técnica</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="iniciar-sesion.html">Iniciar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="slider-lite-detalle">
+        <div class="titulo">
+            <img src="img/isotipo.svg" alt="">
+            <h1><span>Contenido Libre</span><br> De Derecho de Autor<br>
+                <span class="color">Servicio Lite</span>
+            </h1>
+        </div>
+
+    </section>
+    <section class="info__texto">
+        <p class="sin-border"> Nuestro servicio Lite cuenta con 8 estilos , entre nativos y experiencias libres de pago a la SCD por concepto de derechos de autor. Estos estilos le otorgarán un ambiente definido según el rubro de su empresa/negocio y una experiencia de compra
+            y consumo inigualable para sus clientes.
+            <br><br>
+            <span class="azul">Escuche nuestras diferentes opciones de géneros Libres !</span>
+
+        </p>
+    </section>
+
+    <!-- barra busqueda 0-->
+
+
+    <div class="searchbar">
+        <div class="flexsearch--wrapper">
+            <form class="flexsearch--form" action="#" method="post">
+                <div class="flexsearch--input-wrapper">
+                    <div class="lupa icono"></div>
+                    <input class="flexsearch--input" type="search" placeholder="  ♬">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- XXXXXXXXX -->
+    <!------ 0/----->
+
+    <section class="playlist">
+
+        <!-- 1 -->
+
+        <table class="lista">
+            <div class="carousel__lista">
+
+                <tr>
+                    <td>
+                        <div onclick="mostrarImagenes(2)" class="carrusel__elementos playm">
+
+                            <h3 src="img/anglo.png" id="Texto2" class="textoTable">ANGLO</h3>
+                            <div class="mini">
+                                <img src="img/anglo.png" alt="ANGLO">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div onclick="mostrarImagenes(3)" class="carrusel__elementos playm">
+
+                            <h3 id="Texto2" class="textoTable">BARISTA</h3>
+                            <div class="mini">
+                                <img src="img/barista.png" alt="BARISTA">
+                                <audio id="audio3">
+
+                                    <source src="mp3/Barista-demo-Lite.mp3">
+        
+                                    </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div onclick="mostrarImagenes(4)" class="carrusel__elementos playm">
+
+                            <h4 id="Texto2" class="textoTable">FOODIE</h3>
+                                <div class="mini">
+                                    <img src="img/foodie.png" alt="FOODIE">
+                                    <audio id="audio4">
+
+                                        <source src="mp3/Foodie-demo-Lite.mp3">
+            
+                                    </audio>
+                                </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div onclick="mostrarImagenes(5)" class="carrusel__elementos playm">
+
+                            <h4 id="Texto2" class="textoTable">HAPPY HOUR</h4>
+                            <div class="mini">
+                                <img src="img/happyhour.png" alt="HAPPY HOUR">
+                                <audio id="audio5">
+
+                                    <source src="mp3/Happy-Hour-demo-Lite.mp3">
+        
+                                    </audio>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div onclick="mostrarImagenes(6)" class="carrusel__elementos playm">
+
+                            <h3 id="Texto2" class="textoTable">POP</h3>
+                            <div class="mini">
+                                <img src="img/pop.png" alt="POP">
+                                <audio id="audio6">
+
+                                    <source src="mp3/POP-demo-Lite.mp3">
+        
+                                    </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div onclick="mostrarImagenes(7)" class="carrusel__elementos playm">
+
+                            <h3 id="Texto2" class="textoTable">ROMANTICO</h3>
+                            <div class="mini">
+                                <img src="img/romantico.png" alt="ROMANTICO">
+                                <audio id="audio7">
+
+                                    <source src="mp3/Romantico-demo-Lite.mp3">
+        
+                                    </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div onclick="mostrarImagenes(8)" class="carrusel__elementos playm">
+
+                            <h3 id="Texto2" class="textoTable">SPA</h3>
+                            <div class="mini">
+                                <img src="img/spa.png" alt="SPA">
+                                <audio id="audio8">
+
+                                    <source src="mp3/Spa-demo-Lite.mp3">
+        
+                                    </audio>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div onclick="mostrarImagenes(9)" class="carrusel__elementos playm">
+
+                            <h3 id="Texto2" class="textoTable">URBANO</h3>
+                            <div class="mini">
+                                <img src="img/urbano.png" alt="URBANO">
+                                <audio id="audio9">
+
+                                    <source hrf="mp3/universales/Urbano/reggae.mp3">
+        
+                                    </audio>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+        </table>
+
+        <!-- 1/ -->
+
+        <div class="play">
+
+            <!-- imagen grande -->
+            <div class="caratula" id="visor">
+
+                <!--  ELIMINAR <h3 class="textoTable" id="descripcion">ANGLO</h3> -->
+
+
+                <img src="img/anglo.png" id="pantalla" alt="ANGLO">
+
+            </div>
+            <!-- audio  -->
+            <div class="right">
+                <div class="middle">
+
+                    <!-- boton <
+                    <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button> -->
+
+                    <!-- boton play -->
+                    <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+
+                    <!-- boton >
+                    <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button> -->
+
+                </div>
+            </div>
+            <div>
+                <div class="duration">
+                    <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <div class="suscribete">
+            <h3>PARA OBTENER NUESTROS SERVICIOS, CLICK AQUÍ</h3>
+            <a href="elegir-reproductor.html">Suscríbete</a>
+        </div>
+    </section>
+    <!-- XXXXXXXXXX -->
+    <footer class="footer">
+        <div class="logo-footer">
+            <img src="img/logo-footer.svg" alt="">
+        </div>
+        <div class="redes_sociales">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <nav class="menu-footer">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="nuestros-servicios.html">Nuestros Servicios</a>
+                </li>
+                <li>
+                    <a href="nuestro-contenido.html">Nuestros Contenido</a>
+                </li>
+                <li>
+                    <a href="oficinas_chile.html">Asistencia Técnica</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="iniciar-sesion.html">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="ubicacion">
+            <h4>
+                El Conquistador del Monte 4644, Huechuraba - Santiago de Chile <br>
+                <span>Fono:</span> (+562) 2 580 2010
+                <span>Servicio Técnico:</span> (+562) 2 580 2060
+            </h4>
+        </div>
+        <div class="copy">
+            <h5>Todos los derechos reservados ScaMusica ©2021</h5>
+        </div>
+    </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.5/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/b21c7c1315.js" crossorigin="anonymous"></script>
+    <script src="js/reproductor.js"></script>
+
+</body>
+
+</html>
