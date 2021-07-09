@@ -30,9 +30,34 @@ let All_song = [{
         img: "img/img2.jpg"
     },
     {
-        path: "music/song2.mp3"
-        img: "img/img2.jpg",
-    }
+        path: "music/song2.mp3",
+        img: "img/img2.jpg"
+    },
+    {
+        path: "music/song3.mp3",
+        img: "img/img2.jpg"
+    },
+    {
+        path: "music/song4.mp3",
+        img: "img/img2.jpg"
+    },
+    {
+        path: "music/song5.mp3",
+        img: "img/img2.jpg"
+    },
+    {
+        path: "music/song6.mp3",
+        img: "img/img2.jpg"
+    },
+    {
+        path: "music/song7.mp3",
+        img: "img/img2.jpg"
+    },
+    {
+        path: "music/song.mp3",
+        img: "img/img2.jpg"
+    },
+
 ];
 
 
